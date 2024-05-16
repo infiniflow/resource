@@ -1,0 +1,82 @@
+#
+#   Define compound rules to combine tokens with specific POS tags.
+#
+#   The rule is like below, it would combine adjacent tokens from "POS1" to "POSn" into one token of POS "target".
+#   POS1  POS2  ... POSn  target
+#
+#   The POS are in alphabet format.
+
+#名詞,一般                   名詞,接尾,一般      名詞,一般
+NC-G    NS-G    NC-G
+
+#名詞,サ変接続               名詞,接尾,一般      名詞,一般
+N-VS    NS-G    NC-G
+
+#名詞,形容動詞語幹           名詞,接尾,一般       名詞,一般
+N-AJV   NS-G    NC-G
+
+#名詞,ナイ形容詞語幹          名詞,接尾,一般       名詞,一般
+N-NE    NS-G    NC-G
+
+#名詞,副詞可能		         名詞,接尾,一般       名詞,一般
+N-D     NS-G    NC-G
+
+#名詞,一般                   名詞,接尾,サ変接続   名詞,サ変接続
+NC-G   NS-SN   N-VS
+
+#名詞,サ変接続               名詞,接尾,サ変接続    名詞,サ変接続
+N-VS    NS-SN   N-VS
+
+#名詞,形容動詞語幹           名詞,接尾,サ変接続    名詞,サ変接続
+N-AJV   NS-SN   N-VS
+
+#名詞,ナイ形容詞語幹          名詞,接尾,サ変接続    名詞,サ変接続
+N-NE    NS-SN   N-VS
+
+#名詞,副詞可能		         名詞,接尾,サ変接続    名詞,サ変接続
+N-D     NS-SN   N-VS
+
+#名詞,固有名詞,一般           名詞,接尾,一般        名詞,固有名詞,一般
+NP-G    NS-G    NP-G
+
+#名詞,固有名詞,地域,一般      名詞,接尾,一般        名詞,固有名詞,一般
+NP-P    NS-G    NP-G
+
+#名詞,固有名詞,地域,国        名詞,接尾,一般      名詞,固有名詞,一般
+NP-C    NS-G    NP-G
+
+#名詞,固有名詞,組織           名詞,接尾,一般      名詞,固有名詞,一般
+NP-O    NS-G    NP-G
+
+#名詞,一般                   名詞,接尾,地域      名詞,一般
+NC-G    NS-P    NC-G
+
+#名詞,固有名詞,一般          名詞,接尾,地域      名詞,固有名詞,地域,一般
+NP-G    NS-P    NP-P
+
+#名詞,固有名詞,地域,一般     名詞,接尾,地域      名詞,固有名詞,地域,一般
+NP-P    NS-P    NP-P
+
+#名詞,固有名詞,地域,国       名詞,接尾,地域      名詞,固有名詞,地域,一般
+NP-C    NS-P    NP-P
+
+#形容詞,自立		名詞,接尾,特殊      名詞,一般
+AJ-I    NS-S    NC-G
+
+#形容詞,非自立		名詞,接尾,特殊      名詞,一般
+AJ-D    NS-S    NC-G
+
+#名詞,形容動詞語幹		名詞,接尾,特殊      名詞,一般
+N-AJV   NS-S    NC-G
+
+#動詞,自立		名詞,接尾,特殊      名詞,一般
+V-I     NS-S    NC-G
+
+#接頭詞,名詞接続             名詞,一般           名詞,一般
+P-N     NC-G    NC-G
+
+#接頭詞,名詞接続             名詞,サ変接続       名詞,サ変接続
+P-N     N-VS    N-VS
+
+#接頭詞,名詞接続             名詞,副詞可能       名詞,副詞可能
+P-N     N-D     N-D
