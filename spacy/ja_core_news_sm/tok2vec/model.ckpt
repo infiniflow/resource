@@ -1,0 +1,198 @@
+{
+  "dtype": "<f4",
+  "embed_0_E": {
+    "shape": [
+      5000,
+      96
+    ],
+    "offset": 0,
+    "count": 480000
+  },
+  "embed_1_E": {
+    "shape": [
+      1000,
+      96
+    ],
+    "offset": 480000,
+    "count": 96000
+  },
+  "embed_2_E": {
+    "shape": [
+      2500,
+      96
+    ],
+    "offset": 576000,
+    "count": 240000
+  },
+  "embed_3_E": {
+    "shape": [
+      2500,
+      96
+    ],
+    "offset": 816000,
+    "count": 240000
+  },
+  "embed_4_E": {
+    "shape": [
+      50,
+      96
+    ],
+    "offset": 1056000,
+    "count": 4800
+  },
+  "poB": {
+    "shape": [
+      96,
+      3
+    ],
+    "offset": 1060800,
+    "count": 288
+  },
+  "poB2": {
+    "shape": [
+      96
+    ],
+    "offset": 1061088,
+    "count": 96
+  },
+  "poG": {
+    "shape": [
+      96
+    ],
+    "offset": 1061184,
+    "count": 96
+  },
+  "poW": {
+    "shape": [
+      96,
+      3,
+      480
+    ],
+    "offset": 1061280,
+    "count": 138240
+  },
+  "res0B": {
+    "shape": [
+      96,
+      3
+    ],
+    "offset": 1199520,
+    "count": 288
+  },
+  "res0W": {
+    "shape": [
+      96,
+      3,
+      288
+    ],
+    "offset": 1199808,
+    "count": 82944
+  },
+  "res0lnG": {
+    "shape": [
+      96
+    ],
+    "offset": 1282752,
+    "count": 96
+  },
+  "res0lnb": {
+    "shape": [
+      96
+    ],
+    "offset": 1282848,
+    "count": 96
+  },
+  "res1B": {
+    "shape": [
+      96,
+      3
+    ],
+    "offset": 1282944,
+    "count": 288
+  },
+  "res1W": {
+    "shape": [
+      96,
+      3,
+      288
+    ],
+    "offset": 1283232,
+    "count": 82944
+  },
+  "res1lnG": {
+    "shape": [
+      96
+    ],
+    "offset": 1366176,
+    "count": 96
+  },
+  "res1lnb": {
+    "shape": [
+      96
+    ],
+    "offset": 1366272,
+    "count": 96
+  },
+  "res2B": {
+    "shape": [
+      96,
+      3
+    ],
+    "offset": 1366368,
+    "count": 288
+  },
+  "res2W": {
+    "shape": [
+      96,
+      3,
+      288
+    ],
+    "offset": 1366656,
+    "count": 82944
+  },
+  "res2lnG": {
+    "shape": [
+      96
+    ],
+    "offset": 1449600,
+    "count": 96
+  },
+  "res2lnb": {
+    "shape": [
+      96
+    ],
+    "offset": 1449696,
+    "count": 96
+  },
+  "res3B": {
+    "shape": [
+      96,
+      3
+    ],
+    "offset": 1449792,
+    "count": 288
+  },
+  "res3W": {
+    "shape": [
+      96,
+      3,
+      288
+    ],
+    "offset": 1450080,
+    "count": 82944
+  },
+  "res3lnG": {
+    "shape": [
+      96
+    ],
+    "offset": 1533024,
+    "count": 96
+  },
+  "res3lnb": {
+    "shape": [
+      96
+    ],
+    "offset": 1533120,
+    "count": 96
+  }
+}

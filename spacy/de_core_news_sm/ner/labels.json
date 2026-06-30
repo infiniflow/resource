@@ -1,0 +1,62 @@
+{
+  "labels": [
+    "LOC",
+    "MISC",
+    "ORG",
+    "PER"
+  ],
+  "move_names": [
+    "B-LOC",
+    "B-PER",
+    "B-ORG",
+    "B-MISC",
+    "I-LOC",
+    "I-PER",
+    "I-ORG",
+    "I-MISC",
+    "L-LOC",
+    "L-PER",
+    "L-ORG",
+    "L-MISC",
+    "U-LOC",
+    "U-PER",
+    "U-ORG",
+    "U-MISC",
+    "O"
+  ],
+  "n_actions": 17,
+  "token_labels": [
+    "B-LOC",
+    "B-MISC",
+    "B-ORG",
+    "B-PER",
+    "I-LOC",
+    "I-MISC",
+    "I-ORG",
+    "I-PER",
+    "O",
+    "U-LOC",
+    "U-MISC",
+    "U-ORG",
+    "U-PER"
+  ],
+  "action_to_label": {
+    "0": "B-LOC",
+    "1": "B-PER",
+    "2": "B-ORG",
+    "3": "B-MISC",
+    "4": "I-LOC",
+    "5": "I-PER",
+    "6": "I-ORG",
+    "7": "I-MISC",
+    "8": "I-LOC",
+    "9": "I-PER",
+    "10": "I-ORG",
+    "11": "I-MISC",
+    "12": "U-LOC",
+    "13": "U-PER",
+    "14": "U-ORG",
+    "15": "U-MISC",
+    "16": "O"
+  }
+}

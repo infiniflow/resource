@@ -1,0 +1,60 @@
+{
+  "pW_hid": {
+    "shape": [
+      64,
+      96
+    ],
+    "offset": 0,
+    "count": 6144
+  },
+  "pb_hid": {
+    "shape": [
+      64
+    ],
+    "offset": 6144,
+    "count": 64
+  },
+  "pW_pre": {
+    "shape": [
+      8,
+      64,
+      2,
+      64
+    ],
+    "offset": 6208,
+    "count": 65536
+  },
+  "pb_pre": {
+    "shape": [
+      64,
+      2
+    ],
+    "offset": 71744,
+    "count": 128
+  },
+  "pad_pre": {
+    "shape": [
+      1,
+      8,
+      64,
+      2
+    ],
+    "offset": 71872,
+    "count": 1024
+  },
+  "pW_cls": {
+    "shape": [
+      137,
+      64
+    ],
+    "offset": 72896,
+    "count": 8768
+  },
+  "pb_cls": {
+    "shape": [
+      137
+    ],
+    "offset": 81664,
+    "count": 137
+  }
+}

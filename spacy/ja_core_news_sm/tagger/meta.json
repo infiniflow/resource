@@ -1,0 +1,25 @@
+{
+  "tags": [
+    "POS=NOUN",
+    "POS=ADP",
+    "POS=VERB",
+    "POS=SCONJ",
+    "POS=AUX",
+    "POS=PUNCT",
+    "POS=PART",
+    "POS=DET",
+    "POS=NUM",
+    "POS=ADV",
+    "POS=PRON",
+    "POS=ADJ",
+    "POS=PROPN",
+    "POS=CCONJ",
+    "POS=SYM",
+    "POS=NOUN|Polarity=Neg",
+    "POS=AUX|Polarity=Neg",
+    "POS=SPACE",
+    "POS=INTJ",
+    "POS=SCONJ|Polarity=Neg"
+  ],
+  "pipe": "morphologizer"
+}
